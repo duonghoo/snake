@@ -1,0 +1,20 @@
+@mixin button-menu {
+    
+    position: relative;
+    margin-top: 40%;
+    background-color: black;
+    font-size: large;
+    text-transform: uppercase;
+    opacity: 0.5;
+    color: #fff;
+    display: inline-block;
+    text-align: center;
+    align-items: center;
+    border-radius: 20px;
+    border:solid 1px gray;
+    width: 100px;
+    height: 50px;
+    &:hover{
+        opacity: 0.8;
+    }
+}
